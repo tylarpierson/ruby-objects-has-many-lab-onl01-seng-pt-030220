@@ -19,6 +19,6 @@ class Artist
     song_count = {}
     @name.each do |name| 
       if song_count[name]
-        song_count
+        song_count[name] += 1 
   end 
 end 
