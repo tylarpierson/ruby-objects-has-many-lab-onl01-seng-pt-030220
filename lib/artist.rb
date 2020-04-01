@@ -23,5 +23,7 @@ class Artist
       else 
         song_count[name] = 1 
       end 
+    end 
+    song_count
   end 
 end 
