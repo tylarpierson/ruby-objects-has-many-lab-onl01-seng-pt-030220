@@ -17,6 +17,6 @@ class Artist
   end 
   def self.song_count 
     song_count = {}
-    
+    @name.each do |
   end 
 end 
