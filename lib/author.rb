@@ -4,7 +4,7 @@ class Author
     @name = name 
     @posts = [] 
   end 
-  def self.posts 
+  def posts 
     @posts 
   end 
 end 
