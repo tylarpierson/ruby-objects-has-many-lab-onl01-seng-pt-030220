@@ -19,5 +19,6 @@ class Artist
     song_count = {}
     @name.each do |name| 
       if song_count[name]
+        song_count
   end 
 end 
