@@ -14,6 +14,10 @@ class Artist
     add_song(song)
   end 
   def self.song_count 
-    
+    count = 0 
+    while count < songs 
+      count += 1 
+    end 
+    count 
   end 
 end 
