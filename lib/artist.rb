@@ -1,6 +1,6 @@
 class Artist 
   attr_accessor :name
-  @@count = 0 
+  @@song_count = 0 
   def initialize(name)
     @@count += 1 
     @name = name
@@ -16,14 +16,6 @@ class Artist
     add_song(song)
   end 
   def self.song_count 
-    song_count = {}
-    name.each do |name| 
-      if song_count[name]
-        song_count[name] += 1 
-      else 
-        song_count[name] = 1 
-      end 
-    end 
-    song_count
+    
   end 
 end 
