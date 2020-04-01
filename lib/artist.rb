@@ -17,7 +17,7 @@ class Artist
   end 
   def self.song_count 
     song_count = {}
-    song.name.each do |name| 
+    name.each do |name| 
       if song_count[name]
         song_count[name] += 1 
       else 
