@@ -15,9 +15,6 @@ class Artist
   end 
   def self.song_count 
     count = 0 
-    while count < self.songs 
-      count += 1 
-    end 
-    count 
+     
   end 
 end 
